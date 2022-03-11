@@ -78,5 +78,14 @@ spec:
         - apply
         - -f
         - crds/
+        securityContext:
+          allowPrivilegeEscalation: false
+          capabilities:
+            drop:
+            - all
+          readOnlyRootFilesystem: true
+          runAsGroup: 999
+          runAsNonRoot: true
+          runAsUser: 1000
       nodeSelector:
         kubernetes.io/os: linux

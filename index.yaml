@@ -2971,10 +2971,10 @@ entries:
       catalog.cattle.io/ui-component: gatekeeper
     apiVersion: v2
     appVersion: v3.6.0
-    created: "2022-03-02T17:21:26.549699746-07:00"
+    created: "2022-03-11T13:36:24.995730241-06:00"
     description: Modifies Open Policy Agent's upstream gatekeeper chart that provides
       policy-based control for cloud native environments
-    digest: 7ac4550387919768831df9d200bdcc36e2a3ccde9288ad6416964ece5c3d80ee
+    digest: 802852d8a0a5a40950a17150ec9f15d85f3de682990e40ef551d96878e2c41da
     home: https://github.com/open-policy-agent/gatekeeper
     icon: https://charts.rancher.io/assets/logos/gatekeeper.svg
     keywords:
